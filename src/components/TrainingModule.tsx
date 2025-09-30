@@ -195,7 +195,7 @@ const TrainingModule = ({ onBack, userEmail, department = "General" }: TrainingM
                     <div className="aspect-video bg-black rounded-lg flex items-center justify-center">
                       <div className="text-center text-white">
                         <Play className="w-16 h-16 mx-auto mb-4 opacity-50" />
-                          <video autoPlay muted loop width="600">
+                          <video autoPlay controls loop width="600">
                              <source src="video.mp4" type="video/mp4" height="1000" />
                                   Your browser does not support the video tag.
                             </video>
